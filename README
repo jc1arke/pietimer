@@ -1,0 +1,34 @@
+Pietimer injects a canvas element into the page which has a ever reducing pie shaped timer. Once the timer is complete a callback function is performed.
+
+
+Usage
+======
+
+The pietimer canvas element will be injected *into* the specified element.
+
+
+
+$('#element').pietimer(); // Will place pietimer inside #element
+
+
+
+Don't forget to pass some options and a callback!
+
+
+
+
+Options
+=======
+
+$('#element').pietimer({
+	seconds: 5,
+	colour: 'rgba(255, 255, 255, 0.8)',
+	height: 40,
+	width: 40
+},
+function(){
+	alert('boom');
+});
+
+
+height and width will be inherited from the parent element and so are optional.
