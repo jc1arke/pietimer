@@ -1,4 +1,4 @@
-Pietimer injects a canvas element into the page which has a ever reducing pie shaped timer. Once the timer is complete a callback function is performed.
+Pietimer injects a canvas element into the page which has an ever reducing pie shaped timer. Once the timer is complete a callback function is performed.
 
 
 Usage
