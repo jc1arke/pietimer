@@ -32,3 +32,5 @@ function(){
 
 
 height and width will be inherited from the parent element and so are optional.
+
+colour will accept any value that the canvas element accepts including hex values like ffffff
