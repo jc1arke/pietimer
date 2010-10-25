@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Pie Die</title>
+	<style type="text/css">
+	body {
+		background-color: #1a1a1a;
+	}
+	div#pie_to_be {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -15px 0 0 -15px;
+	}
+	</style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.pietimer.js"></script>
+	<script type="text/javascript">
+	$(function(){
+	
+		$('div#pie_to_be').pietimer({
+			seconds: 5,
+			colour: 'rgba(255, 255, 255, 0.8)'
+		},
+		function(){
+			alert('boom');
+		});
+		
+	});
+	</script>
+</head>
+<body>
+	
+	<div id="pie_to_be" style="width: 30px; height: 30px;"></div>
+	
+</body>
+</html>
